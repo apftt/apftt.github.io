@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9a7b0; /* Rosa claro, tom pastel */
+    color: #fff; /* Cor da fonte branca */
+    font-weight: bold; /* Texto em negrito */
+}
+
+
+h1 {
+    font-size: 24px;
+}
+
+nav {
+    background-color: #c73871;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; /* Fixa a barra de navegação no topo */
+    width: 100%; /* Faz a barra ocupar toda a largura */
+    top: 0; /* Alinha a barra de navegação no topo */
+    z-index: 1000; /* Garante que a barra de navegação fique acima de outros elementos */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+main {
+    padding: 80px 20px 20px; /* Adiciona espaço para o conteúdo abaixo da barra fixa */
+}
+
+section {
+    display: none;
+}
+
+section:target {
+    display: block;
+}
+
+img {
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    width: 1000px;
+    border-radius: 10%;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.conteudo-centralizado {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px; /* Ajuste o valor conforme necessário */
+}
