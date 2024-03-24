@@ -29,6 +29,10 @@ nav a {
     padding: 0 20px;
 }
 
+nav a.active {
+    font-weight: bold;
+}
+
 main {
     padding: 80px 20px 20px; /* Adiciona espaço para o conteúdo abaixo da barra fixa */
 }
