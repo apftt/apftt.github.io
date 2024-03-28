@@ -70,5 +70,5 @@ form input, form textarea {
 .conteudo-centralizado {
     text-align: center;
     margin: 0 auto;
-    max-width: 600px; /* Ajuste o valor conforme necessário */
+    max-width: 600px; 
 }
